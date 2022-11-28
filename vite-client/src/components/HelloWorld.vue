@@ -11,8 +11,7 @@ const state = reactive({
     msg: 'empty'
 })
 
-
-fetch("https://localhost:7190/test")
+fetch("/api/test")
     .then(r => r.text())
     .then(t => state.msg = t)
 

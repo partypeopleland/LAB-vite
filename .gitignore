@@ -2,3 +2,5 @@
 vite-client/.vscode
 .idea
 vite-api/bin
+vite-client/obj
+output
